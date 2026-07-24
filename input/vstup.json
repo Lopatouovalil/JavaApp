@@ -1,0 +1,18 @@
+[
+{ "id": "MSG001", "type": "ORDER", "created": "2026-01-05", "amount": 120.50, "vat": 20 },
+{ "id": "MSG002", "type": "INVOICE", "created": "2025-12-20", "amount": 89.00, "vat": 20 },
+{ "type": "INVOICE", "created": "2025-12-20", "amount": 89.00, "vat": 20 },
+{ "id": "", "type": "ORDER", "created": "2026-02-01", "amount": 15.10, "vat": 20 },
+{ "id": 11, "type": "ORDER", "created": "2026-02-01", "amount": 15.10, "vat": 20 },
+{ "id": "MSG009", "created": "2026-01-05", "amount": 120000.50, "vat": 20 },
+{ "id": "MSG007", "type": "A", "created": "2026-01-15", "amount": 10.00, "vat": 10 },
+{ "id": "MSG005", "type": "", "created": "2026-01-05", "amount": 120.50, "vat": 20 },
+{ "id": "MSG006", "type": "INVOICE", "amount": 89.00, "vat": 20 },
+{ "id": "MSG011", "type": "ORDER", "created": "", "amount": 10.00, "vat": 10 },
+{ "id": "MSG004", "type": "ORDER", "created": "aaa", "amount": 15.10, "vat": 20 },
+{ "id": "MSG012", "type": "ORDER", "created": "2026-01-05", "vat": 20 },
+{ "id": "MSG008", "type": "ORDER", "created": "2026-02-01", "amount": -15.10, "vat": 20 },
+{ "id": "MSG013", "type": "ORDER", "created": "2026-01-15", "amount": 10.00},
+{ "id": "MSG003", "type": "ORDER", "created": "2026-01-15", "amount": 100.00, "vat": -1 },
+{ "id": "MSG010", "type": "INVOICE", "created": "2025-12-20", "amount": 89.00, "vat": 105 }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Messages>
+    <Message>
+        <Id>MSG001</Id>
+        <Type>ORDER</Type>
+        <Created>2026-01-05</Created>
+        <Amount>120.5</Amount>
+        <Vat>20</Vat>
+        <AmountWithVat>144.60</AmountWithVat>
+    </Message>
+    <Message>
+        <Id>MSG002</Id>
+        <Type>INVOICE</Type>
+        <Created>2025-12-20</Created>
+        <Amount>89.0</Amount>
+        <Vat>20</Vat>
+        <AmountWithVat>106.80</AmountWithVat>
+    </Message>
+    <Message>
+        <Id>MSG003</Id>
+        <Type>ORDER</Type>
+        <Created>2026-01-15</Created>
+        <Amount>10.0</Amount>
+        <Vat>10</Vat>
+        <AmountWithVat>11.00</AmountWithVat>
+    </Message>
+</Messages>

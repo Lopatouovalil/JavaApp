@@ -1,0 +1,6 @@
+com\marosbrindza\XmlWriter.class
+com\marosbrindza\JsonValidator.class
+com\marosbrindza\Main.class
+com\marosbrindza\JsonReader.class
+com\marosbrindza\SignatureService.class
+com\marosbrindza\CertificateGenerator.class
