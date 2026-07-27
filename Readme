@@ -4,7 +4,7 @@ The application generates a self-signed X.509 certificate using the BouncyCastle
 
 It uses RSA key pair with keysize 2048 bits.
 
-As subject/Issuer is used: CN = Maros.
+As subject/Issuer is used: CN = MarosB.
 
 Validity is set to 1 year.
 
