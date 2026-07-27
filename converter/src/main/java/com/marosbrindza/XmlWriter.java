@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 public class XmlWriter {
 
+    // write a list of JSON messages to an XML file
     public void write(List<JsonNode> messages,String outputFile) throws Exception {
 
         Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
@@ -19,6 +20,7 @@ public class XmlWriter {
 
         document.appendChild(header);
 
+        // iterate through the list of JSON messages and create XML elements for each message
         for(JsonNode json : messages){
 
             Element message = document.createElement("Message");
@@ -49,27 +51,29 @@ public class XmlWriter {
         }
 		System.out.println("Writing XML to: " + outputFile);
 
+        // create a transformer to write the XML document to a file
         javax.xml.transform.Transformer transformer = javax.xml.transform.TransformerFactory.newInstance().newTransformer();
 
+        // set the output properties for the transformer to format the XML with indentation
 		transformer.setOutputProperty(OutputKeys.INDENT,"yes");
 		transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount","4");
 		
+        // transform the XML document to a file with the specified output file name
         transformer.transform(
                 new javax.xml.transform.dom.DOMSource(document),
                 new javax.xml.transform.stream.StreamResult(new File(outputFile))
         );
     }
 
-    private void addElement(
-            Document doc,
-            Element parent,
-            String name,
-            String value
-    ){
+    private void addElement(Document doc,Element parent, String name,String value){
+
+        // create a new XML element with the specified name and value, and append it to the parent element
         Element element = doc.createElement(name);
- 
+
+        // create a text node with the specified value and append it to the new element
         element.appendChild(doc.createTextNode(value));
 
+        // append the new element to the parent element
         parent.appendChild(element);
     }
 }

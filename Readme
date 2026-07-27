@@ -1,0 +1,18 @@
+Task 1 is JSON to XML Converter and Task 2 is Digital signature
+
+The application generates a self-signed X.509 certificate using the BouncyCastle security provider.
+
+It uses RSA key pair with keysize 2048 bits.
+
+As subject/Issuer is used: CN = Maros.
+
+Validity is set to 1 year.
+
+Signature algorithm is SHA256withRSA.
+
+Generated XML files are signed using the generated private key.
+
+The XML file is not modified and signed file is stored in a separate `.signed` file and encoded in Base64.
+
+Example of input/output files:
+    From input.json to input.xml and input.signed

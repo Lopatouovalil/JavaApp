@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.marosbrindza.AppTest" time="0.019" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.marosbrindza.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\brind\AppData\Local\Temp\surefire7731790735836167930\surefirebooter15715879908572152423.jar C:\Users\brind\AppData\Local\Temp\surefire7731790735836167930 2026-07-24T11-11-36_012-jvmRun1 surefire16416545275678054163tmp surefire_06081387598139632714tmp"/>
+    <property name="sun.java.command" value="C:\Users\brind\AppData\Local\Temp\surefire3128774313937817735\surefirebooter12776598432151630192.jar C:\Users\brind\AppData\Local\Temp\surefire3128774313937817735 2026-07-27T09-37-09_618-jvmRun1 surefire16433501785139190366tmp surefire_0476966081643635440tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\brind\Desktop\JavaApp\converter\target\test-classes;C:\Users\brind\Desktop\JavaApp\converter\target\classes;C:\Users\brind\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\brind\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\brind\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\brind\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\brind\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\brind\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.78.1\bcprov-jdk18on-1.78.1.jar;C:\Users\brind\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.78.1\bcpkix-jdk18on-1.78.1.jar;C:\Users\brind\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.78.1\bcutil-jdk18on-1.78.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\brind\AppData\Local\Temp\surefire7731790735836167930\surefirebooter15715879908572152423.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\brind\AppData\Local\Temp\surefire3128774313937817735\surefirebooter12776598432151630192.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.19+10"/>
